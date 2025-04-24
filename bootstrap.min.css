@@ -1,0 +1,35 @@
+body{
+    background-color: #e8e8e8;
+}
+.container{
+    margin-top: 30px;
+}
+.house{
+    background-color: #fff;
+    
+    padding: 20px;
+    float:left;
+    margin-bottom: 20px;
+   
+}
+.house .media-body .list-inline{
+    margin-top: 10px;
+    
+}
+.house .media-body span{
+    margin-right: 10px;
+}
+@media screen and (min-width: 990px) {
+    .container .house p{
+        display: none;
+    }
+    .container .house .media-body{
+        display: none;
+    }
+}
+.pull-left{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   gap: 10px;
+}
